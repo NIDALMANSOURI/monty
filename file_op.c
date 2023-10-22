@@ -144,10 +144,10 @@ void call_fun(op_func f, char *op, char *value, int l, int form)
 		}
 		n = create_node(atoi(value) * flag);
 		if (form == 0)
-			func(&n, l);
+			f(&n, l);
 		if (form == 1)
 			add_to_queue(&n, l);
 	}
 	else
-		func(&head, ln;
+		f(&head, l);
 }
