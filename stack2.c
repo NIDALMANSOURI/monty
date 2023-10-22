@@ -42,7 +42,7 @@ void add_nodes(stack_t **st, unsigned int l)
 {
 	int s;
 
-	if (st == NULL || *st == NULL || (*st->next == NULL)
+	if (st == NULL || *st == NULL || (*st)->next == NULL)
 		more_err(8, l, "add");
 
 	(*st) = (*st)->next;
