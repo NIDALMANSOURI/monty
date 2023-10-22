@@ -40,7 +40,7 @@ void print_str(stack_t **st, __attribute__((unused))unsigned int l)
 		c = t->n;
 		if (c <= 0 || c > 127)
 			break;
-		printf("%c", c;
+		printf("%c", c);
 		t = t->next;
 	}
 	printf("\n");
