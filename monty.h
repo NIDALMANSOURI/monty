@@ -43,7 +43,7 @@ extern stack_t *head;
 typedef void (*op_func)(stack_t **, unsigned int);
 
 void open_file(char *file_name);
-int parse_line(char *buffer, int line_number, int format);
+int parse_line(char *buffer, int line_num, int form);
 void read_file(FILE *);
 int len_chars(FILE *);
 void find_func(char *, char *, int, int);
